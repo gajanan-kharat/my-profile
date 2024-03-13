@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <style>
+         #mainSection,#card{
+            align-items: center;
+            width: 500px;
+            margin: 10px auto;
+            border:3.5px solid orangered
+            
+            
+         } 
+         #abc{
+            display: inline;
+         }
+         #card img {
+            width: 50px;
+            height: 50px;
+        
+            margin-right: 10px;
+         }
+         h2{
+            text-shadow: 5px 5px 10px #00FF00;
+         }
+         #list li::marker{
+            content:"😋    ";
+            list-style-type: none; 
+         }
+         #card{
+            color: aqua;
+            background-color: rgb(10, 10, 10);
+            padding-top: 40px auto;
+            padding-left: 30px;
+            border-radius: 20px;
+            width: 400px;
+         }
+
+         .text-content{
+            width: 60%;
+            display: inline-block;
+         }
+
+       
+
+    </style>
+</head>
+<body>
+    <!-- Main Section -->
+    <section id="mainSection">
+        <!-- Photo Section -->
+        <img id="abc" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH0Hu71vBs1kHnJ2ytbK5hvkWqsCd_2v2Jmg&usqp=CAU" alt="">
+        
+        <!-- Info Section -->
+        <section id="Info">
+            <h2>Compare Text Online</h2>
+            <p >
+                <ul id="list">
+                    <li>Compare text online free </li>
+                    <li>Supports large file comparison</li>
+                    <li>Ignore order and name spaces</li>
+                    <li>Side by side different view</li>
+                    <li>Get result in tabular format for <br>quick reference </li>
+                    <li>TEXT different tool</li>
+                    <li>REST API</li>
+                </ul>
+            </p>
+        </section>
+    </section>
+
+    <!-- 2nd card  -->
+    <section id="card">
+        <h2>2 Stock <br> Recommendation <br>Weekly</h2>
+        <div class="content">
+            <div class="text-content">
+                <p>Midcap Stocks Gaining</p>
+                <p>Momentun after 30-40% fall</p>
+                <p> from 52 week high </p>
+            </div>
+            <img src="assets/developer.png" alt="">
+        </div>     
+    </section> 
+</body>
+</html>
